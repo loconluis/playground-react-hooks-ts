@@ -4,11 +4,13 @@ import "./index.css";
 // import App from './App';
 import * as serviceWorker from "./serviceWorker";
 import Counter from "./examples/Counter";
+import Notes from "./examples/Notes";
 
 const App: React.FC = () => (
   <div>
     <h1>Show Examples</h1>
     <Counter />
+    <Notes />
   </div>
 );
 
