@@ -5,12 +5,14 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import Counter from "./examples/Counter";
 import Notes from "./examples/Notes";
+import NotesWLocalStorage from "./examples/NotesWLocalStorage";
 
 const App: React.FC = () => (
   <div>
     <h1>Show Examples</h1>
     <Counter />
     <Notes />
+    <NotesWLocalStorage />
   </div>
 );
 
